@@ -1,0 +1,78 @@
+.AuthorizationForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    max-width: 500px;
+
+    padding: 30px;
+
+    border-radius: 20px;
+    box-shadow: 0 0 10px #a5a5a5;
+}
+
+.inputBox {
+    margin-bottom: 20px;
+}
+
+.input {
+    display: block;
+    width: 100%;
+
+    padding: 0.5em 1em;
+
+    border-radius: 0.6em;
+    border: none;
+    background-color: #dbffdd;
+
+    font-size: 1.5rem;
+
+    transition: all 0.2s linear;
+
+    &:hover {
+        background-color: #7bb87e;
+        color: #292929;
+    }
+
+    &:focus {
+        outline: 2px solid #48bd52;
+        background-color: #dbffdd;
+    }
+
+    &:invalid {
+        outline: 2px solid #bd4848;
+    }
+}
+
+.label {
+    display: block;
+
+    width: 100%;
+
+    padding-left: 5px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.btn {
+    width: 100%;
+    padding: 0.5em 1em;
+
+    border-radius: 0.6em;
+    border: none;
+
+    background-color: #48bd52;
+
+    font-size: 1.5rem;
+    color: #eeeeee;
+
+    cursor: pointer;
+
+    transition: all 0.2s linear;
+
+    &:hover {
+        background-color: #dbffdd;
+        color: #292929;
+    }
+}
