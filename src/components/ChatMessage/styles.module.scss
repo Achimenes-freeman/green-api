@@ -1,0 +1,36 @@
+.messageBox{
+    position: relative;
+    display: flex;
+    width: 100%;
+
+    padding: 10px 20px;
+
+    z-index: 1;
+
+    &.me{
+        justify-content: flex-end;
+    }
+
+    &.companion{
+        justify-content: flex-start;
+    }
+}
+
+.chatMessage{
+    max-width: 300px;
+    
+    padding: 10px 20px;
+
+    border-radius: 8px;
+
+    background-color: #f0ffc3;
+    word-wrap:break-word;
+
+    &.me{
+        border-top-right-radius: 0;
+    }
+    &.companion{
+        border-top-left-radius: 0;
+    }
+
+}

@@ -1,0 +1,166 @@
+.ChatPage {
+    display: flex;
+
+    width: 100%;
+    height: 100%;
+
+}
+
+.chatList{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+    background-color: #ffffff;
+    height: 100%;
+}
+
+.chatListHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    min-height: 70px;
+
+    padding: 0 15px;
+
+    background-color: #eaeaea;
+}
+
+.profileId{
+    font-size: 1rem;
+}
+
+.logOutBtn{
+
+    padding: .5em 1em;
+
+    background-color: #b5b5b5;
+
+    border: none;
+    border-radius: .5em;
+
+    font-size: 1rem;
+    color: #242424;
+
+    cursor: pointer;
+
+    transition: all .1s linear;
+
+    &:hover{
+        background-color: #b32626;
+        color: #fff;
+    }
+}
+
+.chatListBox{
+    height: 100%;
+    padding: 10px 20px;
+    overflow-y: auto;
+}
+
+.numberInput{
+    display: block;
+    width: 100%;
+
+    padding: .5em 1em;
+    margin-bottom: 10px;
+
+    border: none;
+    border-radius: .5em;
+
+    background-color: #f0f0f0;
+
+    font-size: 1rem;
+
+    &:invalid{
+        outline: rgb(194, 47, 47) 2px solid;
+    }
+
+    &:valid{
+        outline: rgb(57, 194, 47) 2px solid;
+    }
+}
+
+.addNewChatBtn{
+    width: 100%;
+
+    padding: .5em 1em;
+    margin-bottom: 20px;
+
+    background-color: #48bd52;
+
+    border: none;
+    border-radius: .5em;
+
+    font-size: 1rem;
+    color: #fff;
+
+    cursor: pointer;
+
+    transition: all .1s linear;
+
+    &:hover{
+        background-color: #7bb87e;
+    }
+}
+
+.chatSceleton{
+    flex-basis: 70%;
+    background-color: #e5dfc3;
+
+}
+
+.chatSection{
+    display: flex;
+    flex-direction: column;
+
+    background: url(../../assets/background.jpg) #000 repeat;
+    height: 100%;
+    
+}
+
+.chatHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+
+    padding: 0 20px;
+    background-color: #e5dfc3;
+}
+
+.chatView{
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: stretch;
+    flex: 1 1 auto;
+    // height: 100%;
+    
+    padding: 0 30px;
+
+    &Mask{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+
+        background-color: #000;
+        
+        opacity: .15;
+
+        z-index: 0;
+    }
+}
+
+.box{
+    // max-height: 100%;
+    height: 400px;
+    width: 100%;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}

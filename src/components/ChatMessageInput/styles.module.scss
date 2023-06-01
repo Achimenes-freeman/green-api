@@ -1,0 +1,55 @@
+.entryField{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 8px 15px;
+
+    background-color: #e5dfc3;
+}
+
+.chatTextInput {
+    width: 100%;
+
+    padding: 10px 10px;
+    padding-right: 5%;
+
+    border: none;
+    border-radius: 5px;
+
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+
+    font-size: 1.2rem;
+    font-weight: 200;
+
+    &:focus{
+        outline: none;
+    }
+}
+
+.sendMessageButton{
+    display: block;
+    height: 100%;
+    flex-basis: 20%;
+
+    border: none;
+    border-radius: 5px;
+
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+
+    background-color: #7bb87e;
+
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #fff;
+
+    cursor: pointer;
+
+    transition: all .2s linear;
+
+    &:hover{
+        background-color: #48bd52;
+    }
+}
