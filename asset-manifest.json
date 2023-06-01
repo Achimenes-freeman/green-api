@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Achimenes-freeman/green-api/static/css/main.947a8948.css",
+    "main.js": "/Achimenes-freeman/green-api/static/js/main.8ed87068.js",
+    "static/media/background.jpg": "/Achimenes-freeman/green-api/static/media/background.98351e2c64e9420c4899.jpg",
+    "index.html": "/Achimenes-freeman/green-api/index.html",
+    "main.947a8948.css.map": "/Achimenes-freeman/green-api/static/css/main.947a8948.css.map",
+    "main.8ed87068.js.map": "/Achimenes-freeman/green-api/static/js/main.8ed87068.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.947a8948.css",
+    "static/js/main.8ed87068.js"
+  ]
+}
