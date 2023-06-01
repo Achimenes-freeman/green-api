@@ -14,7 +14,7 @@ export const AuthorizationForm = () => {
         <div className={styles.AuthorizationForm}>
             <div className={styles.inputBox}>
                 <label className={styles.label} htmlFor="instance-input">
-                    Enter token
+                    Enter instance
                 </label>
                 <input
                     className={styles.input}
@@ -29,7 +29,7 @@ export const AuthorizationForm = () => {
 
             <div className={styles.inputBox}>
                 <label className={styles.label} htmlFor="token-input">
-                    Enter instance
+                    Enter token
                 </label>
                 <input
                     className={styles.input}
